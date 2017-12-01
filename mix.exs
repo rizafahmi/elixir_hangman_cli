@@ -19,7 +19,7 @@ defmodule TextClient.MixProject do
 
   defp deps do
     [
-      {:hangman, path: "../hangman"}
+      {:hangman, github: "https://github.com/rizafahmi/elixir_hangman"}
     ]
   end
 end
