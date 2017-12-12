@@ -27,7 +27,6 @@ defmodule TextClient.Player do
 
 
   defp continue_with_message(game, msg) do
-    IO.puts(msg)
     continue(game)
   end
   

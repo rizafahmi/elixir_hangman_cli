@@ -1,0 +1,4 @@
+%{
+  "dictionary": {:git, "https://github.com/rizafahmi/elixir_dictionary_hangman.git", "0f3413a73cf62365c2d5fae8b2a8f0a34bf59c55", []},
+  "hangman": {:git, "https://github.com/rizafahmi/elixir_hangman.git", "cefc7fb4f2aba88bb03d140ab4b07c6e41b76942", []},
+}

@@ -13,13 +13,14 @@ defmodule TextClient.MixProject do
 
   def application do
     [
+      included_applications: [:hangman],
       extra_applications: [:logger]
     ]
   end
 
   defp deps do
     [
-      {:hangman, github: "rizafahmi/elixir_hangman"}
+      hangman: [path: "../hangman"]
     ]
   end
 end
